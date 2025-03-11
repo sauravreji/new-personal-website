@@ -1,0 +1,281 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Portfolio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-900 text-gray-100">
+  <nav class="bg-gray-800 shadow-lg">
+    <div class="max-w-6xl  px-4">  
+       <div class="flex items-center space-x-7">
+          <a class="text-gray-100 text-lg font-semibold py-4" href="#">
+             Personal Website
+          </a>
+          <div class="hidden md:flex items-center space-x-4"> 
+             <a class="py-4 px-2 text-blue-400 border-b-4 border-blue-400 font-semibold" href="#home">
+                Home
+             </a>
+             <a class="py-4 px-2 text-gray-300 font-semibold hover:text-blue-400 transition duration-300" href="#about">
+                About
+             </a>
+             <a class="py-4 px-2 text-gray-300 font-semibold hover:text-blue-400 transition duration-300" href="#projects">
+                Projects
+             </a>
+             <a class="py-4 px-2 text-gray-300 font-semibold hover:text-blue-400 transition duration-300" href="#achievements">
+                Achievements
+             </a>
+             <a class="py-4 px-2 text-gray-300 font-semibold hover:text-blue-400 transition duration-300" href="#skills">
+                Skills
+             </a>
+          </div>
+          <div class="md:hidden flex items-center">
+             <button class="outline-none mobile-menu-button">
+                <i class="fas fa-bars text-gray-100"></i>
+             </button>
+          </div>
+       </div>
+    </div>
+</nav>
+
+  
+  <div class="hidden mobile-menu">
+   <ul class="">
+    <li>
+     <a class="block text-sm px-2 py-4 text-white bg-blue-400 font-semibold" href="#home">
+      Home
+     </a>
+    </li>
+    <li>
+     <a class="block text-sm px-2 py-4 hover:bg-blue-400 transition duration-300" href="#about">
+      About
+     </a>
+    </li>
+    <li>
+     <a class="block text-sm px-2 py-4 hover:bg-blue-400 transition duration-300" href="#projects">
+      Projects
+     </a>
+    </li>
+    <li>
+     <a class="block text-sm px-2 py-4 hover:bg-blue-400 transition duration-300" href="#achievements">
+      Achievements
+     </a>
+    </li>
+    <li>
+     <a class="block text-sm px-2 py-4 hover:bg-blue-400 transition duration-300" href="#skills">
+      Skills
+     </a>
+    </li>
+   </ul>
+  </div>
+  
+  <section class="bg-gray-800 py-20" id="home">
+   <div class="container mx-auto flex flex-col items-center">
+    <img  class="rounded-full mb-4" height="150" src="me.jpeg" width="150"/>
+    <h1 class="text-4xl font-bold mb-2">
+     Saurav Kurian Reji
+    </h1>
+    <p class="text-lg text-gray-400 mb-4">
+     Computer Science Student
+    </p>
+    <div class="flex space-x-4">
+     <a class="text-gray-400 hover:text-blue-400" href="https://www.linkedin.com/in/saurav-reji/" target="_blank">
+      <i class="fab fa-linkedin text-2xl">
+      </i>
+     </a>
+     <a class="text-gray-400 hover:text-blue-400" href="https://github.com/sauravreji" target="_blank">
+      <i class="fab fa-github text-2xl">
+      </i>
+     </a>
+     </a>
+    </div>
+   </div>
+  </section>
+  
+  <section class="bg-gray-900 py-20" id="about">
+   <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-8">
+     About Me
+    </h2>
+    <div class="flex flex-col md:flex-row items-center">
+     
+     <div class="md:ml-8">
+      <p class="text-2xl text-gray-400 mb-4">
+        Hello there! I'm Saurav Kurian Reji, a third-year Computer Science student at Muthoot Institute of Technology and Science. 🖥️ Passionate about the limitless possibilities of technology, I'm on a quest to harness the power of code and innovation.I actively seek opportunities to expand my horizons through internships, projects, and collaboration with like-minded individuals. I am driven by a desire to create innovative solutions that address real-world problems and enhance user experiences. I am also excited about the prospect of connecting with industry professionals, mentors, and fellow enthusiasts who share a passion for software engineering.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  
+  <section class="bg-gray-800 py-20" id="projects">
+    <div class="container mx-auto px-4">
+     <h2 class="text-3xl font-bold text-center mb-8">
+      Projects
+     </h2>
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-gray-900 p-4 rounded-lg shadow-lg">
+         <img alt="Project 1" class="rounded-lg mb-4 w-full h-auto" src="project1.png"/>
+         <h3 class="text-xl font-bold mb-2">
+          Personal Website
+         </h3>
+         <p class="text-gray-400 mb-4">
+           I created and launched my personal website project to showcase my skills, experiences, and accomplishments using HTML and Tailwind CSS.
+         </p>
+         <a class="text-blue-400 font-semibold" href="https://github.com/sauravreji/personal-website" target = "_blank">
+          View Project
+         </a>
+      </div>
+      <div class="bg-gray-900 p-4 rounded-lg shadow-lg">
+       <img alt="Project2" class="rounded-lg mb-4" height="300" src="project2.jpg" width="400"/>
+       <h3 class="text-xl font-bold mb-2">
+         Intelligent Data Visualization Tool
+       </h3>
+       <p class="text-gray-400 mb-4">
+        This tool leverages machine learning to automate the process of data visualization. By uploading a CSV file and providing a natural language query, the tool predicts the most appropriate x-axis, y-axis, and graph type for the given data.It uses Llama, a language model, to determine the best columns for the x and y axes. A custom-built machine learning model predicts the type of graph (e.g., bar chart, line chart, scatter plot) that best represents the data. Due to limited data and resources, the sentence generated by the model is sent to Llama for spelling and grammar correction before selecting the graph type from the refined sentence. This process ensures accurate and polished visualizations, streamlining data analysis and interpretation.
+       </p>
+       <a class="text-blue-400 font-semibold" href="https://github.com/sauravreji/Intelligent-Data-Visualization-Tool" target = "_blank">
+        View Project
+       </a>
+      </div>
+      <div class="bg-gray-900 p-4 rounded-lg shadow-lg">
+       <img alt="Project3" class="rounded-lg mb-4" height="300" src="project3.png" width="400"/>
+       <h3 class="text-xl font-bold mb-2">
+        Password Manager
+       </h3>
+       <p class="text-gray-400 mb-4">
+        This project is a simple and secure password manager built using Python's Tkinter, cryptography, and MySQL. It allows users to generate strong passwords, save them securely in a MySQL database, retrieve them when needed, and delete passwords.
+       </p>
+       <a class="text-blue-400 font-semibold" href="https://github.com/sauravreji/Password_Manager" target="_blank">
+        View Project
+       </a>
+      </div>
+     </div>
+    </div>
+ </section>
+  
+
+<section class="bg-gray-900 py-20" id="achievements">
+  <div class="container mx-auto px-4">
+     <h2 class="text-3xl font-bold text-center mb-8">
+        Achievements
+     </h2>
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+           <div class="flex items-center mb-4">
+              <i class="fas  text-yellow-500 text-3xl mr-3"></i>
+              <h3 class="text-xl font-bold">NPTEL - Python for Data Science</h3>
+           </div>
+           <p class="text-gray-400">
+              Completed an online course on Python for Data Science with 75% marks and received a silver medal.
+           </p>
+           <a class="text-blue-400 font-semibold" href="https://drive.google.com/file/d/1Lx7g-jpKdHKa11JHwBrFyFbgd-Z5kerw/view" target="_blank">
+              View Certificate
+            </a>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+           <div class="flex items-center mb-4">
+              <i class="fas  text-blue-500 text-3xl mr-3"></i>
+              <h3 class="text-xl font-bold">IBM CSRBOX AI-ML Course and internship</h3>
+           </div>
+           <p class="text-gray-400">
+              Completed an online course on Artificial Intelligence and Machine Learning from IBM CSRBOX.
+           </p>
+           <a class = "text-blue-400 font-semibold" href="https://drive.google.com/file/d/1mcIoHxs06iwMtwrwFJfZq_a7Daz9zCIr/view?usp=sharing" target="_blank" >View Certificate</a>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+           <div class="flex items-center mb-4">
+              <i class="fas  text-green-500 text-3xl mr-3"></i>
+              <h3 class="text-xl font-bold">Google Cloud Computing Foundations Certificate</h3>
+           </div>
+           <p class="text-gray-400">
+              Completed an online course on Google Cloud computing Foundation.
+           </p>
+           <a class = "text-blue-400 font-semibold" href = "https://www.credly.com/badges/cb2fc274-5778-4538-8cb5-86ec08671a40/public_url" target="_blank">View Certificate</a>
+        </div>
+     </div>
+  </div>
+</section>
+ 
+<section class="bg-gray-800 py-20" id="skills">
+  <div class="container mx-auto px-4">
+     <h2 class="text-3xl font-bold text-center mb-8">
+        Skills
+     </h2>
+     <div class="flex flex-wrap justify-center">
+        <div class="bg-gray-900 p-4 rounded-lg shadow-lg m-2 w-40 text-center">
+           <h3 class="text-xl font-bold">
+              HTML5
+           </h3>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg shadow-lg m-2 w-40 text-center">
+           <h3 class="text-xl font-bold">
+              CSS
+           </h3>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg shadow-lg m-2 w-40 text-center">
+           <h3 class="text-xl font-bold">
+              JavaScript
+           </h3>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg shadow-lg m-2 w-40 text-center">
+           <h3 class="text-xl font-bold">
+              Flask
+           </h3>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg shadow-lg m-2 w-40 text-center">
+           <h3 class="text-xl font-bold">
+              Node.js
+           </h3>
+        </div>
+
+        <div class="bg-gray-900 p-4 rounded-lg shadow-lg m-2 w-40 text-center">
+           <h3 class="text-xl font-bold">
+              Python
+           </h3>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg shadow-lg m-2 w-40 text-center">
+           <h3 class="text-xl font-bold">
+              Java
+           </h3>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg shadow-lg m-2 w-40 text-center">
+           <h3 class="text-xl font-bold">
+              MySQL
+           </h3>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg shadow-lg m-2 w-40 text-center">
+           <h3 class="text-xl font-bold">
+              SQLplus
+           </h3>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg shadow-lg m-2 w-40 text-center">
+           <h3 class="text-xl font-bold">
+              Tkinter
+           </h3>
+        </div>
+     </div>
+  </div>
+</section>
+ 
+  
+  <script>
+   const btn = document.querySelector("button.mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+  </script>
+ </body>
+</html>
